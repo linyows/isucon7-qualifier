@@ -1,0 +1,26 @@
+do{ my $x = {
+       'build_requires' => {
+                             'ExtUtils::CBuilder' => 0
+                           },
+       'conflicts' => {
+                        'Any::Moose' => '< 0.10',
+                        'MouseX::AttributeHelpers' => '< 0.06',
+                        'MouseX::NativeTraits' => '< 1.00'
+                      },
+       'recommends' => {},
+       'requires' => {
+                       'Scalar::Util' => '1.14',
+                       'XSLoader' => '0.02',
+                       'perl' => '5.008005'
+                     },
+       'test_requires' => {
+                            'Test::Exception' => '0',
+                            'Test::Fatal' => '0',
+                            'Test::LeakTrace' => '0',
+                            'Test::More' => '0.88',
+                            'Test::Output' => '0',
+                            'Test::Requires' => '0',
+                            'Try::Tiny' => '0'
+                          }
+     };
+$x; }

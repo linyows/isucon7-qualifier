@@ -1,0 +1,22 @@
+cpanm (App::cpanminus) 1.7043 on perl 5.026001 built for x86_64-linux
+Work directory is /home/isucon/.cpanm/work/1508401688.1590
+You have make /usr/bin/make
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.28
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+--> Working on /home/isucon/isubata/webapp/perl/
+Entering /home/isucon/isubata/webapp/perl
+Configuring /home/isucon/isubata/webapp/perl
+-> OK
+Checking if you have Kossy 0 ... Yes (0.40)
+Checking if you have DBIx::Sunny 0 ... Yes (0.24)
+Checking if you have DateTime::Format::MySQL 0 ... Yes (0.06)
+Checking if you have Starlet 0 ... Yes (0.31)
+Checking if you have DBD::mysql 0 ... Yes (4.043)
+Checking if you have Plack::Middleware::Session::Cookie 0 ... Yes (undef)
+<== Installed dependencies for /home/isucon/isubata/webapp/perl/. Finishing.
